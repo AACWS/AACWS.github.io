@@ -1,0 +1,651 @@
+
+#scene-one {
+    background:url("../images/world_map.png") no-repeat ;
+    height:617px;
+    margin: auto;
+} 
+#title-text {
+    text-align:center;
+    position:relative;
+    color:#000000;
+}
+
+#charleston {
+    position:relative;
+    left:220px;
+    top:185px;
+    color:#000000;
+}
+
+#canton {
+    position:relative;
+    left:800px;
+    top:228px;
+    color:#000000;
+}
+
+#scene-two-charleston {
+    background:url("../images/chose_sc.jpg") no-repeat center ;
+    height:540px;
+}
+
+#scene-two-canton {
+    background:url("../images/chose_canton.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-two-canton-left-text {
+    position:relative;
+    left:200px;
+    top:50px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 13em;
+}
+
+#scene-two-canton-right-text {
+    position:relative;
+    left:750px;
+    top:40px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 18em;
+}
+
+#btn-scene-two-left {
+    background: #d3d3d3;
+    height: 20px;
+    min-width: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:640px;
+    top:100px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#btn-scene-two-right {
+    background: #d3d3d3;
+    height: 20px;
+    min-width: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:870px;
+    top:100px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#btn-scene-two-bottom {
+    background: #d3d3d3;
+    height: 20px;
+    min-width: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:780px;
+    top:150px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#scene-three-missionary-servant {
+    background:url("../images/america_missionary_servant.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-three-slave {
+    background:url("../images/america_slave.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-three-missionary-right {
+    
+    position:absolute;
+    left:550px;
+    top:40px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 42em;
+    font-size:12px;
+}
+
+#scene-three-missionary-bottom {
+    position:absolute;
+    left:250px;
+    top:460px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 42em;
+    font-size:18px;
+}
+
+#btn-scene-three-left {
+    background: #d3d3d3;
+    height: 20px;
+    min-width: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:500px;
+    top:500px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+#btn-scene-three-middle {
+    background: #d3d3d3;
+    height: 20px;
+    min-width: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:600px;
+    top:440px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+#btn-scene-three-right {
+    background: #d3d3d3;
+    height: 20px;
+    min-width: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:780px;
+    top:500px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#scene-four-farmer {
+    background:url("../images/farmer_in_america.jpg") no-repeat center;
+    height:540px;
+}
+#scene-four-apprentice {
+    background:url("../images/apprentice_in_america.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-four-sailor {
+    background:url("../images/sailor_in_america.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-army-north {
+    background:url("../images/army_as_north.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-army-south {
+    background:url("../images/army_as_south.jpg") no-repeat center;
+    height:540px;
+}
+
+#btn-scene-four-army {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:720px;
+    top:380px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#btn-scene-four-army-two {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:900px;
+    top:380px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+#scene-four-text {
+    position:relative;
+    left:250px;
+    top:40px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 24em;
+}
+
+#scene-four-right {
+    position:absolute;
+    left:750px;
+    top:40px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 42em;
+    font-size:12px;
+}
+
+#title-text-4 {
+    text-align:center;
+    position:relative;
+    color:#000000;
+    font-size:40px;
+}
+#title-text-42 {
+    padding-top: 10px;
+    text-align:center;
+    position:relative;
+    color:#000000;
+    font-size:40px;
+}
+#title-text-6 {
+    padding-top: 40px;
+    text-align:center;
+    position:relative;
+    color:#000000;
+    font-size:24px;
+}
+#four-pic-1 {
+    position:absolute;
+    left:550px;
+    top:140px;
+    width: 42em;
+    font-size:12px;
+}
+
+#four-pic-2 {
+    position:absolute;
+    left:750px;
+    top:140px;
+    width: 42em;
+    font-size:12px;
+}
+
+#four-pic-3 {
+    position:absolute;
+    left:950px;
+    top:140px;
+    width: 42em;
+    font-size:12px;
+}
+
+#scene-four-text-two {
+    position:relative;
+    left:250px;
+    top:40px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 14em;
+}
+
+#scene-civil-one {
+    background:url("../images/mclellan.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-civil-two {
+    background:url("../images/grant_background.jpg") no-repeat center;
+    height:540px;
+}
+
+#btn-scene-four-army-mid {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:750px;
+    top:400px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+#scene-civil-one-battles {
+    background:url("../images/slide-two.PNG") no-repeat center;
+    height:540px;
+}
+
+#scene-civil-two-battles {
+    background:url("../images/slide-seven.PNG") no-repeat center;
+    height:540px;
+}
+
+#mmb-pic-1 {
+    position:relative;
+    left:765px;
+    top:175px;
+}
+
+#mmb-pic-2 {
+    position: relative;
+    left:705px;
+    top:145px;
+}
+
+#mmb-pic-3 {
+    position:relative;
+    left:705px;
+    top:115px;
+}
+#g-pic-1 {
+    position:relative;
+    left:768px;
+    top:178px;
+}
+#g-pic-2 {
+    position:relative;
+    left:760px;
+    top:205px;
+}
+#g-pic-3 {
+    position:relative;
+    left:695px;
+    top:220px;
+}
+
+#scene-bedford-background {
+    background:url("../images/forrest_scene.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-bedford-battles {
+    background:url("../images/bedford_battles_background.PNG") no-repeat center;
+    height:540px;
+}
+
+#b-pic-1 {
+    position:relative;
+    left:735px;
+    top:180px;
+}
+
+#b-pic-2 {
+    position:relative;
+    left:653px;
+    top:212px;
+}
+
+
+#battle-left-text {
+    position: absolute;;
+    left:200px;
+    top:50px;
+    font-size:12px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 24em;
+}
+
+#battle-right-text {
+    position:absolute;
+    left:650px;
+    top:50px;
+    font-size:12px;
+    color:#000000;
+    font-family: Courgette;
+    overflow-wrap: normal;
+    width: 27em;
+}
+
+#battle-left-button {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:350px;
+    top:450px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#battle-right-button {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:750px;
+    top:450px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#battle-bottom-button {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:550px;
+    top:550px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#end-left-button {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:350px;
+    top:250px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#end-right-button {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:750px;
+    top:250px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#end-bottom-button {
+    background: #d3d3d3;
+    height: 30px;
+    min-width: 60px;
+    border: none;
+    border-radius: 10px;
+    color: #222;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    position:absolute;
+    left:550px;
+    top:350px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+#scene-fredericksburg {
+    background:url("../images/Fredericksburg.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-antietam {
+    background:url("../images/Antietam.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-gettysburg {
+    background:url("../images/Gettysburg.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-spotsylvania {
+    background:url("../images/spotsylvania.PNG") no-repeat center;
+    height:540px;
+}
+
+#scene-harbor {
+    background:url("../images/cold_harbor.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-petersburg {
+    background:url("../images/Petersburg.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-donelson {
+    background:url("../images/donelson.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-shiloh {
+    background:url("../images/shiloh.jpg") no-repeat center;
+    height:540px;
+}
+
+#scene-never-get {
+    background:url("../images/never_get.PNG") no-repeat center;
+    height:540px;
+}
+
+#scene-revoked {
+    background:url("../images/revoked.PNG") no-repeat center;
+    height:540px;
+}
+
+#scene-return {
+    background:url("../images/return.PNG") no-repeat center;
+    height:540px;
+}
