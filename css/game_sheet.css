@@ -1,120 +1,79 @@
 
 #scene-one {
-    background:url("../images/world_map.png") no-repeat ;
+    background:url("../images/world_map.jpg") no-repeat center;
     height:617px;
     margin: auto;
-} 
-#title-text {
-    text-align:center;
-    position:relative;
-    color:#000000;
+    margin-top: 5px;
 }
-
-#charleston {
+#transparent-button-charleston {
+    background : transparent;
     position:relative;
-    left:220px;
-    top:185px;
-    color:#000000;
+    border: none !important;
+    font-size:0;
+    width:175px;
+    height:120px;
+    left:290px;
+    top:140px;
+    outline:none;
 }
-
-#canton {
+#transparent-button-canton {
+    background : transparent;
     position:relative;
-    left:800px;
-    top:228px;
-    color:#000000;
+    border: none !important;
+    font-size:0;
+    width:175px;
+    height:120px;
+    left:755px;
+    top:200px;
+    outline:none;
 }
 
 #scene-two-charleston {
     background:url("../images/chose_sc.jpg") no-repeat center ;
-    height:540px;
+    height:617px;
+    margin: auto;
 }
 
 #scene-two-canton {
     background:url("../images/chose_canton.jpg") no-repeat center;
-    height:540px;
-}
-
-#scene-two-canton-left-text {
-    position:relative;
-    left:200px;
-    top:50px;
-    color:#000000;
-    font-family: Courgette;
-    overflow-wrap: normal;
-    width: 13em;
-}
-
-#scene-two-canton-right-text {
-    position:relative;
-    left:750px;
-    top:40px;
-    color:#000000;
-    font-family: Courgette;
-    overflow-wrap: normal;
-    width: 18em;
+    height:617px;
+    margin: auto;
 }
 
 #btn-scene-two-left {
-    background: #d3d3d3;
-    height: 20px;
-    min-width: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #222;
-    font-size: 16px;
-    font-family: 'Cookie', cursive;
-    position:absolute;
-    left:640px;
-    top:100px;
-    transition: 1s;
-    -webkit-tap-highlight-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding-top: 5px;
+    background : transparent;
+    position:relative;
+    border: none !important;
+    font-size:0;
+    width:230px;
+    height:80px;
+    left:190px;
+    top:480px;
+    outline:none;
 }
 
 #btn-scene-two-right {
-    background: #d3d3d3;
-    height: 20px;
-    min-width: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #222;
-    font-size: 16px;
-    font-family: 'Cookie', cursive;
-    position:absolute;
-    left:870px;
-    top:100px;
-    transition: 1s;
-    -webkit-tap-highlight-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding-top: 5px;
+    background : transparent;
+    position:relative;
+    border: none !important;
+    font-size:0;
+    width:230px;
+    height:80px;
+    left:605px;
+    top:480px;
+    outline:none;
 }
 
-#btn-scene-two-bottom {
-    background: #d3d3d3;
-    height: 20px;
-    min-width: 40px;
-    border: none;
-    border-radius: 10px;
-    color: #222;
-    font-size: 16px;
-    font-family: 'Cookie', cursive;
-    position:absolute;
-    left:780px;
-    top:150px;
-    transition: 1s;
-    -webkit-tap-highlight-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    padding-top: 5px;
+#btn-scene-two-middle {
+    background : transparent;
+    position:relative;
+    border: none !important;
+    font-size:0;
+    width:230px;
+    height:80px;
+    left:50px;
+    top:480px;
+    outline:none;
 }
 
 #scene-three-missionary-servant {
