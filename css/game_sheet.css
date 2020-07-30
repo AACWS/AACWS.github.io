@@ -203,6 +203,13 @@
     outline:none;
 }
 
+#gettysburg-scene {
+    background:url("../images/gettysburg.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
+}
+
 #antietam-button {
     background : transparent;
     position:relative;
@@ -213,6 +220,13 @@
     left:90px;
     top:185px;
     outline:none;
+}
+
+#antietam-scene {
+    background:url("../images/antietam.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
 }
 
 #fredericksburg-button {
@@ -227,38 +241,111 @@
     outline:none;
 }
 
+#fredericksburg-scene {
+    background:url("../images/fredericksburg.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
+}
+
 #spotsylvania-button {
-    background : red;
+    background : transparent;
     position:relative;
     border: none !important;
     font-size:0;
-    width:400px;
-    height:65px;
-    left:500px;
-    top:465px;
+    width:370px;
+    height:55px;
+    left:520px;
+    top:235px;
     outline:none;
+}
+
+#spotsylvania-scene {
+    background:url("../images/spotsylvania.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
 }
 
 #cold-harbor-button {
-    background : red;
+    background : transparent;
     position:relative;
     border: none !important;
     font-size:0;
-    width:400px;
-    height:65px;
-    left:500px;
-    top:465px;
+    width:350px;
+    height:55px;
+    left:475px;
+    top:280px;
     outline:none;
 }
 
+#cold-harbor-scene {
+    background:url("../images/cold_harbor.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
+}
+
 #petersburg-button {
-    background : red;
+    background : transparent;
     position:relative;
     border: none !important;
     font-size:0;
-    width:300px;
-    height:120px;
-    left:500px;
-    top:465px;
+    width:330px;
+    height:65px;
+    left:-210px;
+    top:300px;
     outline:none;
+}
+
+#petersburg-scene {
+    background:url("../images/petersburg.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#choose-another-battle {
+    background : transparent;
+    position:relative;
+    border: none !important;
+    font-size:0;
+    width:230px;
+    height:80px;
+    left:320px;
+    top:480px;
+    outline:none;
+}
+
+#leave-the-army {
+    background : transparent;
+    position:relative;
+    border: none !important;
+    font-size:0;
+    width:230px;
+    height:80px;
+    left:480px;
+    top:480px;
+    outline:none;
+}
+
+#denied-scene {
+    background:url("../images/stayed_denied.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#revoked-scene {
+    background:url("../images/stayed_revoked.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#return-scene {
+    background:url("../images/return_to_china.jpg") no-repeat center;
+    height:617px;
+    margin: auto;
+    margin-top: 5px;
 }

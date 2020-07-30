@@ -262,3 +262,14 @@ function cantonClick() {
    else
        window.location.href = "coming_to_america_as_slave.html";
 }
+
+function leaveArmy() {
+	ints = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
+
+	if (ints == 1)
+		window.location.href = "return_to_china.html";
+	else if (ints == 2)
+		window.location.href = "stayed_denied.html";
+	else
+		window.location.href = "stayed_revoked.html";
+}
