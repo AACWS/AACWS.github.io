@@ -192,38 +192,38 @@
 }
 
 #gettysburg-button {
-    background : red;
+    background : transparent;
     position:relative;
     border: none !important;
     font-size:0;
-    width:300px;
-    height:120px;
+    width:400px;
+    height:65px;
     left:500px;
-    top:465px;
+    top:120px;
     outline:none;
 }
 
 #antietam-button {
-    background : red;
+    background : transparent;
     position:relative;
     border: none !important;
     font-size:0;
-    width:300px;
-    height:120px;
-    left:500px;
-    top:465px;
+    width:400px;
+    height:65px;
+    left:90px;
+    top:185px;
     outline:none;
 }
 
 #fredericksburg-button {
-    background : red;
+    background : transparent;
     position:relative;
     border: none !important;
     font-size:0;
-    width:300px;
-    height:120px;
-    left:500px;
-    top:465px;
+    width:400px;
+    height:65px;
+    left:-310px;
+    top:250px;
     outline:none;
 }
 
@@ -232,8 +232,8 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:300px;
-    height:120px;
+    width:400px;
+    height:65px;
     left:500px;
     top:465px;
     outline:none;
@@ -244,8 +244,8 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:300px;
-    height:120px;
+    width:400px;
+    height:65px;
     left:500px;
     top:465px;
     outline:none;
