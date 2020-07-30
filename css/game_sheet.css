@@ -233,7 +233,7 @@
     margin-top: 0.8650519031141869vh;
 }
 
-#ftransparentericksburg-button {
+#fredericksburg-button {
     background : transparent;
     position:relative;
     border: none !important;
@@ -245,8 +245,8 @@
     outline:none;
 }
 
-#ftransparentericksburg-scene {
-    background:url("../images/ftransparentericksburg.jpg") no-repeat center;
+#fredericksburg-scene {
+    background:url("../images/fredericksburg.jpg") no-repeat center;
     height:106.74740484429066vh;
     margin: auto;
     margin-top: 0.8650519031141869vh;
