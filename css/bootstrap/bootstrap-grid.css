@@ -1905,8 +1905,9 @@ html {
   padding-right: 1.5rem !important; }
 
 .pb-4,
-.py-4 {
-  padding-bottom: 1.5rem !important; }
+/* .py-4 {
+  padding-bottom: 0rem !important; 
+} */
 
 .pl-4,
 .px-4 {
@@ -1925,7 +1926,8 @@ html {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important; }
+  padding-bottom: 3rem !important; 
+}
 
 .pl-5,
 .px-5 {
