@@ -1,8 +1,8 @@
 #choose-birthplace {
     background:url("../images/world_map.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #title-text {
@@ -13,10 +13,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:175px;
-    height:120px;
-    left:290px;
-    top:140px;
+    width:19.671875vw;
+    height:20.761245674740483vh;
+    left:22.65625vw;
+    top:24.22145328719723vh;
     outline:none;
 }
 
@@ -25,10 +25,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:175px;
-    height:120px;
-    left:755px;
-    top:200px;
+    width:17.671875vw;
+    height:20.761245674740483vh;
+    left:45.984375vw;
+    top:34.602076124567475vh;
     outline:none;
 }
 
@@ -36,14 +36,14 @@
     background:url("../images/chose_sc.jpg") no-repeat center ;
     height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #chose-canton {
     background:url("../images/chose_canton.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #weymouth-left-btn {
@@ -51,10 +51,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:230px;
-    height:80px;
-    left:190px;
-    top:480px;
+    width:21vw;
+    height:21vh;
+    left:13vw;
+    top:79vh;
     outline:none;
 }
 
@@ -63,10 +63,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:230px;
-    height:80px;
-    left:605px;
-    top:480px;
+    width:21vw;
+    height:21vh;
+    left:42.5vw;
+    top:79vh;
     outline:none;
 }
 
@@ -75,10 +75,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:230px;
-    height:80px;
-    left:50px;
-    top:480px;
+    width:21vw;
+    height:21vh;
+    left:-4.5vw;
+    top:79vh;
     outline:none;
 }
 
@@ -87,10 +87,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:230px;
-    height:80px;
-    left:320px;
-    top:480px;
+    width:21vw;
+    height:39.792387543252595vh;
+    left:23vw;
+    top:79vh;
     outline:none;
 }
 
@@ -99,10 +99,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:230px;
-    height:80px;
-    left:480px;
-    top:480px;
+    width:21vw;
+    height:39.792387543252595vh;
+    left:32.5vw;
+    top:79vh;
     outline:none;
 }
 
@@ -111,88 +111,88 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:300px;
-    height:120px;
-    left:500px;
-    top:465px;
+    width:23.4375vw;
+    height:20.761245674740483vh;
+    left:38.5vw;
+    top:79.8650519031141869vh;
     outline:none;
 }
 
 #canton-servant {
     background:url("../images/america_servant.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #canton-missionary {
     background:url("../images/america_missionary.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #canton-slave {
     background:url("../images/america_slave.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #farmer-in-america {
     background:url("../images/farmer_in_america.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #apprentice-in-america {
     background:url("../images/apprentice_in_america.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #sailor-in-america {
     background:url("../images/sailor_in_america.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #join-army-as-north {
     background:url("../images/join_army_as_north.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #join-army-earlier {
     background:url("../images/join_earlier.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #join-army-later {
     background:url("../images/join_later.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #mclellan-mead-burnside {
     background:url("../images/mcclellan_mead_burnside.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #grant {
     background:url("../images/grant.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #gettysburg-button {
@@ -200,18 +200,18 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:400px;
-    height:65px;
-    left:500px;
-    top:120px;
+    width:31.25vw;
+    height:9.8650519031141869vh;
+    left:39.0625vw;
+    top:20.761245674740483vh;
     outline:none;
 }
 
 #gettysburg-scene {
     background:url("../images/gettysburg.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #antietam-button {
@@ -219,37 +219,37 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:400px;
-    height:65px;
-    left:90px;
-    top:185px;
+    width:31.25vw;
+    height:10.8650519031141869vh;
+    left:7.03125vw;
+    top:30.8650519031141869vh;
     outline:none;
 }
 
 #antietam-scene {
     background:url("../images/antietam.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
-#fredericksburg-button {
+#ftransparentericksburg-button {
     background : transparent;
     position:relative;
     border: none !important;
     font-size:0;
-    width:400px;
-    height:65px;
-    left:-310px;
-    top:250px;
+    width:31.25vw;
+    height:9.8650519031141869vh;
+    left:-24.21875vw;
+    top:43.25259515570934vh;
     outline:none;
 }
 
-#fredericksburg-scene {
-    background:url("../images/fredericksburg.jpg") no-repeat center;
-    height:617px;
+#ftransparentericksburg-scene {
+    background:url("../images/ftransparentericksburg.jpg") no-repeat center;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #spotsylvania-button {
@@ -257,18 +257,18 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:370px;
-    height:55px;
-    left:520px;
-    top:235px;
+    width:26.25vw;
+    height:9.8650519031141869vh;
+    left:43.21875vw;
+    top:42.25259515570934vh;
     outline:none;
 }
 
 #spotsylvania-scene {
     background:url("../images/spotsylvania.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #cold-harbor-button {
@@ -276,18 +276,18 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:350px;
-    height:55px;
-    left:475px;
-    top:280px;
+    width:25.25vw;
+    height:9.8650519031141869vh;
+    left:40.21875vw;
+    top:49.25259515570934vh;
     outline:none;
 }
 
 #cold-harbor-scene {
     background:url("../images/cold_harbor.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #petersburg-button {
@@ -295,18 +295,18 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:330px;
-    height:65px;
-    left:-210px;
-    top:300px;
+    width:25.25vw;
+    height:9.8650519031141869vh;
+    left:-11.21875vw;
+    top:53.25259515570934vh;
     outline:none;
 }
 
 #petersburg-scene {
     background:url("../images/petersburg.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #choose-another-battle {
@@ -314,10 +314,10 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:230px;
-    height:80px;
-    left:320px;
-    top:480px;
+    width:21.96875vw;
+    height:19vh;
+    left:22.5vw;
+    top:79.1vh;
     outline:none;
 }
 
@@ -326,36 +326,30 @@
     position:relative;
     border: none !important;
     font-size:0;
-    width:230px;
-    height:80px;
-    left:480px;
-    top:480px;
+    width:21.96875vw;
+    height:19.84083044982699vh;
+    left:30.5vw;
+    top:79.1vh;
     outline:none;
 }
 
 #denied-scene {
     background:url("../images/stayed_denied.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #revoked-scene {
     background:url("../images/stayed_revoked.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
 
 #return-scene {
     background:url("../images/return_to_china.jpg") no-repeat center;
-    height:617px;
+    height:106.74740484429066vh;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0.8650519031141869vh;
 }
-
-/* #randomizer {
-    background:url("../images/spinning_cannon.gif") no-repeat center;
-    height:617px;
-    margin: auto;
-} */
