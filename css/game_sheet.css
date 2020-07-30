@@ -4,6 +4,10 @@
     margin: auto;
     margin-top: 5px;
 }
+
+#title-text {
+    text-align: center;
+}
 #transparent-button-charleston {
     background : transparent;
     position:relative;
