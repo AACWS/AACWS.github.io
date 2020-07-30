@@ -254,3 +254,11 @@ jQuery(document).ready(function($) {
   siteScroll();
 
 });
+
+function cantonClick() {
+	ints = Math.floor(Math.random() * 2); 
+	if (ints == 1)
+       window.location.href = "coming_to_america_via_servant.html";
+   else
+       window.location.href = "coming_to_america_as_slave.html";
+}
