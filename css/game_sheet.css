@@ -5,6 +5,20 @@
     margin-top: 0.8650519031141869vh;
 }
 
+#intro-1-scene {
+    background:url("../images/intro_1.jpg") no-repeat center;
+    height:106.74740484429066vh;
+    margin: auto;
+    margin-top: 0.8650519031141869vh;
+}
+
+#intro-2-scene{
+    background:url("../images/intro_2.jpg") no-repeat center;
+    height:106.74740484429066vh;
+    margin: auto;
+    margin-top: 0.8650519031141869vh;
+}
+
 #title-text {
     text-align: center;
 }
