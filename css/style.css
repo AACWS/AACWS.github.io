@@ -579,6 +579,56 @@ h1, h2, h3, h4, h5,
   background: -webkit-gradient(linear, left top, right top, from(#4286f4), to(#42e2f4));
   background: linear-gradient(to right, #4286f4 0%, #42e2f4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', endColorstr='#42e2f4', GradientType=1 ); }
+  .site-blocks-cover-1 {
+    background-size: cover;
+    background-size: 120% 200%;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative; }
+    .site-blocks-cover:after {
+      position: absolute;
+      /* background-image: url("../images/svg_1.svg"); */
+      content: "";
+      right: 0; }
+    .site-blocks-cover.overlay {
+      position: relative; }
+      .site-blocks-cover.overlay:before {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.2); }
+    .site-blocks-cover .player {
+      position: absolute;
+      bottom: -250px;
+      width: 100%; }
+    .site-blocks-cover, .site-blocks-cover > .container > .row {
+      min-height: 600px;
+      height: calc(80vh); 
+    }
+    .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
+      min-height: 400px;
+      height: calc(20vh); }
+    .site-blocks-cover h1 {
+      font-size: 3.5rem;
+      font-weight: 400;
+      color: #000;
+      font-weight: 900; }
+      @media (max-width: 991.98px) {
+        .site-blocks-cover h1 {
+          font-size: 2rem; } }
+    .site-blocks-cover p {
+      color: #6c757d;
+      font-size: 1rem;
+      font-weight: 300; }
+    .site-blocks-cover .intro-text {
+      font-size: 16px;
+      line-height: 1.5; }
+    @media (max-width: 991.98px) {
+      .site-blocks-cover .display-1 {
+        font-size: 3rem; } }
 
 .site-blocks-cover {
   background-size: cover;
@@ -607,7 +657,7 @@ h1, h2, h3, h4, h5,
     width: 100%; }
   .site-blocks-cover, .site-blocks-cover > .container > .row {
     min-height: 600px;
-    height: calc(80vh); 
+    height: calc(100vh); 
   }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover > .container > .row {
     min-height: 400px;
