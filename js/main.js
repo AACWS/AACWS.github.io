@@ -9,8 +9,8 @@ jQuery(document).ready(function($) {
 	"use strict";
 
 	
-	$(".loader").delay(1000).fadeOut("slow");
-  $("#overlayer").delay(1000).fadeOut("slow");	
+	$(".loader").delay(2000).fadeOut("slow");
+  $("#overlayer").delay(2000).fadeOut("slow");	
 
 	var siteMenuClone = function() {
 
@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
 
       });
 
-    }, 1000);
+    }, 2000);
 
 		$('body').on('click', '.arrow-collapse', function(e) {
       var $this = $(this);
