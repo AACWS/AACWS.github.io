@@ -396,7 +396,7 @@
   
   /* Modal Content/Box */
   .modal-content {
-    background-color: #fefefe;
+    background-color: white;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -413,4 +413,20 @@
     left:66.21875vw;
     top:56.25259515570934vh;
     outline:none;
+}
+
+.invisible-button-stories {
+    background-color: white;
+    background: white;
+    /* background: url('/image/white.png'); */
+    cursor:pointer;
+    position:relative;
+    border: none;
+    outline:none;
+    font-size:0;
+    width:30.75vw;
+    height:40.8650519031141869vh;
+    left:0vw;
+    top:0vh;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }

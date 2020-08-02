@@ -1306,7 +1306,7 @@ h1, h2, h3, h4, h5,
 
 .unit-4 {
   padding: 30px;
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
   border-radius: 5px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
