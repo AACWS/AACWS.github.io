@@ -368,7 +368,7 @@
     margin-top: 0.8650519031141869vh;
 }
 
-/* #trigger-modal {
+#trigger-modal {
     background : transparent;
     position:relative;
     border: none !important;
@@ -378,7 +378,7 @@
     left:21.21875vw;
     top:51.25259515570934vh;
     outline:none;
-} */
+}
 
 /* The Modal (background) */
 .modal {
@@ -406,7 +406,7 @@
 .btn-dog-tag {
     background : transparent;
     position:absolute;
-    border: none;
+    border: none !important;
     font-size:0;
     width:16.75vw;
     height:19.8650519031141869vh;
