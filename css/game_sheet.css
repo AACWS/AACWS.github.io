@@ -18,7 +18,7 @@
 }
 
 #transparent-button-charleston {
-    background : transparent;
+    background : red;
     position:absolute;
     border: none !important;
     font-size:0;
@@ -30,7 +30,7 @@
 }
 
 #transparent-button-canton {
-    background : transparent;
+    background : red;
     position:absolute;
     border: none !important;
     font-size:0;
@@ -47,6 +47,7 @@
   display: block;
   margin: 0 auto;
 }
+
 #intro-2-scene{
     background:url("../images/intro_2.jpg") no-repeat center;
     height:106.74740484429066vh;
@@ -58,12 +59,12 @@
     text-align: center;
 }
 
-#chose-charleston {
+/* #chose-charleston {
     background:url("../images/chose_sc.jpg") no-repeat center ;
     height:106.74740484429066vh;
     margin: auto;
     margin-top: 0.8650519031141869vh;
-}
+} */
 
 #chose-canton {
     background:url("../images/chose_canton.jpg") no-repeat center;
@@ -73,38 +74,38 @@
 }
 
 #weymouth-left-btn {
-    background : transparent;
-    position:relative;
+    background : red;
+    position:absolute;
     border: none !important;
     font-size:0;
-    width:21vw;
+    width:20vw;
     height:21vh;
-    left:13vw;
-    top:79vh;
+    left:17vw;
+    top:73vh;
     outline:none;
 }
 
 #weymouth-right-btn {
-    background : transparent;
-    position:relative;
+    background : red;
+    position:absolute;
     border: none !important;
     font-size:0;
     width:21vw;
     height:21vh;
-    left:42.5vw;
-    top:79vh;
+    left:60.5vw;
+    top:73vh;
     outline:none;
 }
 
 #weymouth-middle-btn {
-    background : transparent;
-    position:relative;
+    background : red;
+    position: absolute;;
     border: none !important;
     font-size:0;
     width:21vw;
     height:21vh;
-    left:-4.5vw;
-    top:79vh;
+    left:38.25vw;
+    top:73vh;
     outline:none;
 }
 
