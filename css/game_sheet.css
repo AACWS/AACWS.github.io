@@ -1,8 +1,13 @@
+.container {
+    position: relative;
+    text-align: center;
+  }
+  
 #choose-birthplace {
-    background:url("../images/world_map.jpg") no-repeat center;
+    /* background:url("../images/world_map.jpg") no-repeat center;
     height:106.74740484429066vh;
     margin: auto;
-    margin-top: 0.8650519031141869vh;
+    margin-top: 0.8650519031141869vh; */
 }
 
 #intro-1-scene {
@@ -12,6 +17,36 @@
     margin-top: 0.8650519031141869vh;
 }
 
+#transparent-button-charleston {
+    background : transparent;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:19.671875vw;
+    height:20.761245674740483vh;
+    left:24.65625vw;
+    top:20.22145328719723vh;
+    outline:none;
+}
+
+#transparent-button-canton {
+    background : transparent;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:17.671875vw;
+    height:20.761245674740483vh;
+    left:61.984375vw;
+    top:29.602076124567475vh;
+    outline:none;
+}
+
+.choose-birthplace-img {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 #intro-2-scene{
     background:url("../images/intro_2.jpg") no-repeat center;
     height:106.74740484429066vh;
@@ -21,29 +56,6 @@
 
 #title-text {
     text-align: center;
-}
-#transparent-button-charleston {
-    background : transparent;
-    position:relative;
-    border: none !important;
-    font-size:0;
-    width:19.671875vw;
-    height:20.761245674740483vh;
-    left:22.65625vw;
-    top:24.22145328719723vh;
-    outline:none;
-}
-
-#transparent-button-canton {
-    background : transparent;
-    position:relative;
-    border: none !important;
-    font-size:0;
-    width:17.671875vw;
-    height:20.761245674740483vh;
-    left:45.984375vw;
-    top:34.602076124567475vh;
-    outline:none;
 }
 
 #chose-charleston {
