@@ -403,7 +403,8 @@
   }
 
 .btn-dog-tag {
-    background : transparent;
+    background-color: rgba(255,255,255); /* Black w/ opacity */
+    background : white;
     position:absolute;
     border: none !important;
     font-size:0;
@@ -412,20 +413,4 @@
     left:66.21875vw;
     top:56.25259515570934vh;
     outline:none;
-}
-
-.invisible-button-stories {
-    background-color: white;
-    background: white;
-    /* background: url('/image/white.png'); */
-    cursor:pointer;
-    position:relative;
-    border: none;
-    outline:none;
-    font-size:0;
-    width:30.75vw;
-    height:40.8650519031141869vh;
-    left:0vw;
-    top:0vh;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
