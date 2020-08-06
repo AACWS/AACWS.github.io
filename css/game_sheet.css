@@ -106,7 +106,7 @@
     width:23%;
     height:21%;
     left:38%;
-    top:72%;
+    top:69%;
     outline:none;
 }
 
@@ -118,19 +118,6 @@
     margin-top: 0.8650519031141869vh;
 }
 
-#apprentice-in-america {
-    background:url("../images/apprentice_in_america.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#sailor-in-america {
-    background:url("../images/sailor_in_america.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
 
 #join-army-as-north {
     background:url("../images/join_army_as_north.jpg") no-repeat center;
@@ -361,7 +348,7 @@
   }
 
 .btn-dog-tag {
-    background : transparent;
+    background : red;
     position:absolute;
     border: none !important;
     font-size:0;
