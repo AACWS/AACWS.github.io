@@ -2,19 +2,16 @@
     position: relative;
     text-align: center;
   }
-  
-#choose-birthplace {
-    /* background:url("../images/world_map.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh; */
+
+.game-background {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
-#intro-1-scene {
-    background:url("../images/intro_1.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
+#title-text {
+    text-align: center;
 }
 
 #transparent-button-charleston {
@@ -41,38 +38,6 @@
     outline:none;
 }
 
-.choose-birthplace-img {
-  width: 75%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-#intro-2-scene{
-    background:url("../images/intro_2.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#title-text {
-    text-align: center;
-}
-
-/* #chose-charleston {
-    background:url("../images/chose_sc.jpg") no-repeat center ;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-} */
-
-#chose-canton {
-    background:url("../images/chose_canton.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
 #weymouth-left-btn {
     background : transparent;
     position:absolute;
@@ -81,7 +46,7 @@
     width:20%;
     height:21%;
     left:17%;
-    top:64%;
+    top:67%;
     outline:none;
 }
 
@@ -93,78 +58,58 @@
     width:20%;
     height:21%;
     left:62.5%;
-    top:64%;
+    top:67%;
     outline:none;
 }
 
 #weymouth-middle-btn {
     background : transparent;
-    position: absolute;;
+    position: absolute;
     border: none !important;
     font-size:0;
     width:20%;
     height:21%;
     left:39%;
-    top:64%;
+    top:67%;
     outline:none;
 }
 
 #canton-left-btn {
     background : transparent;
-    position:relative;
+    position: absolute;
     border: none !important;
     font-size:0;
-    width:21vw;
-    height:39.792387543252595vh;
-    left:23vw;
-    top:79vh;
+    width:21%;
+    height:20%;
+    left:26%;
+    top:67%;
     outline:none;
 }
 
 #canton-right-btn {
     background : transparent;
-    position:relative;
+    position: absolute;
     border: none !important;
     font-size:0;
-    width:21vw;
-    height:39.792387543252595vh;
-    left:32.5vw;
-    top:79vh;
+    width:21%;
+    height:20%;
+    left:53%;
+    top:67%;
     outline:none;
 }
 
 #btn-join-army {
     background : transparent;
-    position:relative;
+    position: absolute;
     border: none !important;
     font-size:0;
-    width:23.4375vw;
-    height:20.761245674740483vh;
-    left:38.5vw;
-    top:79.8650519031141869vh;
+    width:23%;
+    height:21%;
+    left:38%;
+    top:72%;
     outline:none;
 }
 
-#canton-servant {
-    background:url("../images/america_servant.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#canton-missionary {
-    background:url("../images/america_missionary.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#canton-slave {
-    background:url("../images/america_slave.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
 
 #farmer-in-america {
     background:url("../images/farmer_in_america.jpg") no-repeat center;
@@ -416,14 +361,13 @@
   }
 
 .btn-dog-tag {
-    background-color: rgba(255,255,255); /* Black w/ opacity */
-    background : white;
+    background : transparent;
     position:absolute;
     border: none !important;
     font-size:0;
-    width:16.75vw;
-    height:19.8650519031141869vh;
-    left:66.21875vw;
-    top:56.25259515570934vh;
+    width:17%;
+    height:17%;
+    left:63%;
+    top:46%;
     outline:none;
 }
