@@ -110,97 +110,40 @@
     outline:none;
 }
 
-
-#farmer-in-america {
-    background:url("../images/farmer_in_america.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-
-#join-army-as-north {
-    background:url("../images/join_army_as_north.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#join-army-earlier {
-    background:url("../images/join_earlier.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#join-army-later {
-    background:url("../images/join_later.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#mclellan-mead-burnside {
-    background:url("../images/mcclellan_mead_burnside.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#grant {
-    background:url("../images/grant.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
 #gettysburg-button {
-    background : red;
-    position:relative;
+    background : blue;
+    position:absolute;
     border: none !important;
     font-size:0;
-    width:31.25vw;
-    height:9.8650519031141869vh;
-    left:39.0625vw;
-    top:20.761245674740483vh;
+    width:31%;
+    height:10%;
+    left:39%;
+    top:21%;
     outline:none;
 }
 
-#gettysburg-scene {
-    background:url("../images/gettysburg.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
 
 #antietam-button {
     background : red;
-    position:relative;
+    position:absolute;
     border: none !important;
     font-size:0;
-    width:31.25vw;
-    height:10.8650519031141869vh;
-    left:7.03125vw;
-    top:30.8650519031141869vh;
+    width:31%;
+    height:10%;
+    left:39%;
+    top:31%;
     outline:none;
 }
 
-#antietam-scene {
-    background:url("../images/antietam.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
 #fredericksburg-button {
-    background : red;
-    position:relative;
+    background : violet;
+    position: absolute;
     border: none !important;
     font-size:0;
-    width:31.25vw;
-    height:9.8650519031141869vh;
-    left:-24.21875vw;
-    top:43.25259515570934vh;
+    width:31%;
+    height:10%;
+    left:39%;
+    top:40%;
     outline:none;
 }
 
@@ -212,116 +155,74 @@
 }
 
 #spotsylvania-button {
-    background : red;
-    position:relative;
+    background : blue;
+    position:absolute;
     border: none !important;
     font-size:0;
-    width:26.25vw;
-    height:9.8650519031141869vh;
-    left:43.21875vw;
-    top:42.25259515570934vh;
+    width:28%;
+    height:10%;
+    left:40%;
+    top:37%;
     outline:none;
-}
-
-#spotsylvania-scene {
-    background:url("../images/spotsylvania.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
 }
 
 #cold-harbor-button {
     background : red;
-    position:relative;
+    position: absolute;
     border: none !important;
     font-size:0;
-    width:25.25vw;
-    height:9.8650519031141869vh;
-    left:40.21875vw;
-    top:49.25259515570934vh;
+    width:31%;
+    height:8%;
+    left:60%;
+    top:45%;
     outline:none;
-}
-
-#cold-harbor-scene {
-    background:url("../images/cold_harbor.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
 }
 
 #petersburg-button {
-    background : red;
-    position:relative;
+    background : violet;
+    position: absolute;
     border: none !important;
     font-size:0;
-    width:25.25vw;
-    height:9.8650519031141869vh;
-    left:-11.21875vw;
-    top:53.25259515570934vh;
+    width:24%;
+    height:8%;
+    left:41%;
+    top:49%;
     outline:none;
-}
-
-#petersburg-scene {
-    background:url("../images/petersburg.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
 }
 
 #choose-another-battle {
     background : red;
-    position:relative;
+    position:absolute;
     border: none !important;
     font-size:0;
-    width:21.96875vw;
-    height:19vh;
-    left:22.5vw;
-    top:79.1vh;
+    width:25%;
+    height:18%;
+    left:22%;
+    top:69%;
     outline:none;
 }
 
 #leave-the-army {
     background : red;
-    position:relative;
+    position:absolute;
     border: none !important;
     font-size:0;
-    width:21.96875vw;
-    height:19.84083044982699vh;
-    left:30.5vw;
-    top:79.1vh;
+    width:25%;
+    height:18%;
+    left:50%;
+    top:69%;
     outline:none;
-}
-
-#denied-scene {
-    background:url("../images/stayed_denied.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#revoked-scene {
-    background:url("../images/stayed_revoked.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
-}
-
-#return-scene {
-    background:url("../images/return_to_china.jpg") no-repeat center;
-    height:106.74740484429066vh;
-    margin: auto;
-    margin-top: 0.8650519031141869vh;
 }
 
 #trigger-modal {
     background : red;
-    position:relative;
+    position:absolute;
     border: none !important;
     font-size:0;
-    width:16.75vw;
-    height:19.8650519031141869vh;
-    left:21.21875vw;
-    top:51.25259515570934vh;
+    width:17%;
+    height:17%;
+    left:63%;
+    top:46%;
     outline:none;
 }
 
