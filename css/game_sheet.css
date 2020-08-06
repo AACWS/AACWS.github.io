@@ -15,7 +15,7 @@
 }
 
 #transparent-button-charleston {
-    background : transparent;
+    background : red;
     position:absolute;
     border: none !important;
     font-size:0;
@@ -27,7 +27,7 @@
 }
 
 #transparent-button-canton {
-    background : transparent;
+    background : red;
     position:absolute;
     border: none !important;
     font-size:0;
@@ -39,7 +39,7 @@
 }
 
 #weymouth-left-btn {
-    background : transparent;
+    background : red;
     position:absolute;
     border: none !important;
     font-size:0;
@@ -51,7 +51,7 @@
 }
 
 #weymouth-right-btn {
-    background : transparent;
+    background : red;
     position:absolute;
     border: none !important;
     font-size:0;
@@ -63,7 +63,7 @@
 }
 
 #weymouth-middle-btn {
-    background : transparent;
+    background : red;
     position: absolute;
     border: none !important;
     font-size:0;
@@ -75,7 +75,7 @@
 }
 
 #canton-left-btn {
-    background : transparent;
+    background : red;
     position: absolute;
     border: none !important;
     font-size:0;
@@ -87,7 +87,7 @@
 }
 
 #canton-right-btn {
-    background : transparent;
+    background : red;
     position: absolute;
     border: none !important;
     font-size:0;
@@ -99,7 +99,7 @@
 }
 
 #btn-join-army {
-    background : transparent;
+    background : red;
     position: absolute;
     border: none !important;
     font-size:0;
@@ -168,7 +168,7 @@
 }
 
 #gettysburg-button {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -187,7 +187,7 @@
 }
 
 #antietam-button {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -206,7 +206,7 @@
 }
 
 #fredericksburg-button {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -225,7 +225,7 @@
 }
 
 #spotsylvania-button {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -244,7 +244,7 @@
 }
 
 #cold-harbor-button {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -263,7 +263,7 @@
 }
 
 #petersburg-button {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -282,7 +282,7 @@
 }
 
 #choose-another-battle {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -294,7 +294,7 @@
 }
 
 #leave-the-army {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
@@ -327,7 +327,7 @@
 }
 
 #trigger-modal {
-    background : transparent;
+    background : red;
     position:relative;
     border: none !important;
     font-size:0;
