@@ -4,6 +4,7 @@
   }
 
 .game-background {
+    padding-top: 1%;
     width: 75%;
     height: auto;
     display: block;
