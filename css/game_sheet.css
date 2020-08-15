@@ -55,8 +55,6 @@
 
 #transparent-button-charleston {
     background : red;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     position:absolute;
     border: none !important;
     font-size:0;
