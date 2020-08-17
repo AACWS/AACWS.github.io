@@ -83,17 +83,30 @@
     <div class="site-blocks-cover" style="overflow: hidden;">
       <br/>
       <!-- canton-slave -->
-      <div id ="container">
-        <img class="game-background" src="images/america_slave.jpg" alt="Cinque Terre" height="106.7vh">
-        <button onclick="location.href='farmer_in_america.html'" type="button" id ="weymouth-left-btn"></button>
-        <button onclick="location.href='sailor_in_america.html'" type="button" id ="weymouth-right-btn"></button>
-        <button onclick="location.href='apprentice_in_america.html'" type="button" id ="weymouth-middle-btn"></button>
-        
-        <button type="button" id="trigger-modal-1" class="btn-dog-tag"></button>
-        <div id="myModal" class="modal">
-          <div class="modal-content">
-            <span class="close" style="font-size: 40px;">&times;</span>
-              <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Originally from Canton, China, it is believed that Joesph was sold into slavery and brought to the United States as a child. He enlisted in the army at age 20. He fought in many notable battles, remaining with the army until the end of the war. During the Battle of Gettysburg, Pierce’s bravery was on full display -- he was one of the first soldiers to volunteer to fight on the front lines. Pierce was promoted to Corporal for his distinguished service, an exceptional distinction that defied the stereotypes Asian Americans faced at the time.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+          </div>
+          <div class="col-12">
+            <div class="card">
+              <div id="img-wrapper">
+                <img class="card-img-top" src="images/america_slave.jpg" alt="Antietam">
+                <div class="img-overlay">
+                  <button type="button" id="trigger-modal-1" class="btn-dog-tag btn btn-md btn-success"></button>
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close" style="font-size: 40px;">&times;</span>
+                        <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Originally from Canton, China, it is believed that Joesph was sold into slavery and brought to the United States as a child. He enlisted in the army at age 20. He fought in many notable battles, remaining with the army until the end of the war. During the Battle of Gettysburg, Pierce’s bravery was on full display -- he was one of the first soldiers to volunteer to fight on the front lines. Pierce was promoted to Corporal for his distinguished service, an exceptional distinction that defied the stereotypes Asian Americans faced at the time.</p>
+                    </div>
+                  </div>
+                  <button onclick="location.href='farmer_in_america.html'" class="btn btn-md btn-success" type="button" id ="weymouth-left-btn"></button>
+                  <button onclick="location.href='sailor_in_america.html'" class="btn btn-md btn-success" type="button" id ="weymouth-right-btn"></button>
+                  <button onclick="location.href='apprentice_in_america.html'" class="btn btn-md btn-success" type="button" id ="weymouth-middle-btn"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
           </div>
         </div>
       </div>

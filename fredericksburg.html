@@ -75,21 +75,28 @@
 
     <div class="site-blocks-cover" style="overflow: hidden;">
       <br/>
-      <div id ="container">
-        <img class="game-background" src="images/fredericksburg.jpg" alt="Cinque Terre" height="106.7vh">
-        <button onclick="location.href='mcclellan_mead_burnside.html'" type="button" id ="canton-left-btn"></button>
-        <button onclick="leaveArmy(); return false;" type="button" id ="canton-right-btn"></button>
-        <!-- modal -->
-        <button id ="trigger-modal"></button>
-
-        <div id="myModal" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Born in Kwangtung Province, China, Dardelle was brought to Connecticut at age seven. Dardelle enlisted straight out of school. At the battle of Fredericksburg, Dardelle participated in the charge on Marye’s heights, where he was severely injured in his right shoulder. He continued to serve through the rest of the war despite his injury. Dardelle returned home to Connecticut, where he married and fathered three daughters. In 1880, he became a naturalized US citizen. Despite his service, Antonio was denied his veterans’ pension due to lacking birth records.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
           </div>
-        
+          <div class="col-12">
+            <div class="card">
+              <div id="img-wrapper">
+                <img class="card-img-top" src="images/fredericksburg.jpg" alt="Antietam">
+                <div class="img-overlay">
+                  <button id ="trigger-modal" type="button" class="btn btn-md btn-success"></button>
+                  <button onclick="location.href='mcclellan_mead_burnside.html'" class="btn btn-md btn-success" id ="canton-left-btn"></button>
+                  <button onclick="leaveArmy(); return false;" class="btn btn-md btn-success" type="button" id ="canton-right-btn"></button>
+                </div>
+                <div id="myModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" style="font-size: 40px;">&times;</span>
+                    <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Born in Kwangtung Province, China, Dardelle was brought to Connecticut at age seven. Dardelle enlisted straight out of school. At the battle of Fredericksburg, Dardelle participated in the charge on Marye’s heights, where he was severely injured in his right shoulder. He continued to serve through the rest of the war despite his injury. Dardelle returned home to Connecticut, where he married and fathered three daughters. In 1880, he became a naturalized US citizen. Despite his service, Antonio was denied his veterans’ pension due to lacking birth records.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

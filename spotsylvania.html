@@ -75,21 +75,28 @@
 
     <div class="site-blocks-cover" style="overflow: hidden;">
       <br/>
-      <div id ="container">
-        <img class="game-background" src="images/spotsylvania.jpg" alt="Cinque Terre" height="106.7vh">
-        <button onclick="location.href='grant.html'" id ="canton-left-btn"></button>
-        <button onclick="leaveArmy(); return false;" type="button" id ="canton-right-btn"></button>
-        <!-- modal -->
-        <button id ="trigger-modal"></button>
-
-        <div id="myModal" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-              <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Brought to the United States to be educated as a missionary, Ah Yee was dissatisfied in his adoptive country and wanted to return home to China. At 16 years old, Ah Yee enlisted in the 42nd New York Volunteer Regiment as a corporal. At the battle of Spotsylvania, after all his comrades were killed or wounded, Ah Yee took up the flag, and kept it flying, an act of bravery for which he was unrecognized.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
           </div>
-        
+          <div class="col-12">
+            <div class="card">
+              <div id="img-wrapper">
+                <img class="card-img-top" src="images/spotsylvania.jpg" alt="Antietam">
+                <div class="img-overlay">
+                  <button id ="trigger-modal" type="button" class="btn btn-md btn-success"></button>
+                  <button onclick="location.href='grant.html'" class="btn btn-md btn-success" id ="canton-left-btn"></button>
+                  <button onclick="leaveArmy(); return false;" class="btn btn-md btn-success" type="button" id ="canton-right-btn"></button>
+                </div>
+                <div id="myModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" style="font-size: 40px;">&times;</span>
+                    <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Brought to the United States to be educated as a missionary, Ah Yee was dissatisfied in his adoptive country and wanted to return home to China. At 16 years old, Ah Yee enlisted in the 42nd New York Volunteer Regiment as a corporal. Late in the war, Ah Yee was captured and sent to the infamous Andersonville prison camp. There, he contracted a disease that ultimately led him to go blind, all in service to a country that never remembered his sacrifice.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

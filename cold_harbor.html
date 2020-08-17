@@ -75,21 +75,28 @@
 
     <div class="site-blocks-cover" style="overflow: hidden;">
       <br/>
-      <div id ="container">
-        <img class="game-background" src="images/cold_harbor.jpg" alt="Cinque Terre" height="106.7vh">
-        <button onclick="location.href='grant.html'" id ="canton-left-btn"></button>
-        <button onclick="leaveArmy(); return false;" type="button" id ="canton-right-btn"></button>
-        <!-- modal -->
-        <button id ="trigger-modal"></button>
-
-        <div id="myModal" class="modal">
-
-          <!-- Modal content -->
-          <div class="modal-content">
-            <span class="close">&times;</span>
-            <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Found as a half-starved stowaway on the ship named Cohota, Edward Day Cohota worked as a cabin boy before eventually coming to Gloucester, Massachusetts and being educated. In 1864, Cohota joined the 23rd Massachusetts Infantry, and at the Battle of Cold Harbor, Cohota was shot in the head, but despite his injury, he persevered and saved the life of a heavily injured soldier, dragging him to safety before returning to the front. After the war, his citizenship was denied due to the Chinese Exclusion Acts.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
           </div>
-        
+          <div class="col-12">
+            <div class="card">
+              <div id="img-wrapper">
+                <img class="card-img-top" src="images/cold_harbor.jpg" alt="Antietam">
+                <div class="img-overlay">
+                  <button id ="trigger-modal" type="button" class="btn btn-md btn-success"></button>
+                  <button onclick="location.href='grant.html'" type="button" class="btn btn-md btn-success" id ="canton-left-btn"></button>
+                  <button onclick="leaveArmy(); return false;" type="button" class="btn btn-md btn-success" id ="canton-right-btn"></button>
+                </div>
+                <div id="myModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" style="font-size: 40px;">&times;</span>
+                    <p style="text-align:center; font-size:17px;font-family: im_fell_englishregular;">Found as a half-starved stowaway on the ship named Cohota, Edward Day Cohota worked as a cabin boy before eventually coming to Gloucester, Massachusetts and being educated. In 1864, Cohota joined the 23rd Massachusetts Infantry, and at the Battle of Cold Harbor, Cohota was shot in the head, but despite his injury, he persevered and saved the life of a heavily injured soldier, dragging him to safety before returning to the front. After the war, his citizenship was denied due to the Chinese Exclusion Acts.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

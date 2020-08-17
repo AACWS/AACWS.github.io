@@ -6,9 +6,40 @@
 
 .container {
     position: relative;
-    /* text-align: center;
-    max-width: 800px;
-    width:75%; */
+}
+
+.img-wrapper {
+  position: relative;
+ }
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  max-width: 1920;
+  max-height: 1080;
+  height: 50%;
+  display: block;
 }
 
 .game-background {
@@ -19,616 +50,240 @@
     margin: 0 auto;
 }
 
+.img-properties {
+  padding-top: 10%;
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#canton-left-btn {
+  background: red;
+  position: absolute;
+  bottom: 7%;
+  left: 18%;
+  border: none;
+  font-size: 0;
+  width: 29%;
+  height: 19%;
+  outline: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+#canton-right-btn {
+    background: red;
+    position: absolute;
+    bottom: 7%;
+    left: 54%;
+    border: none;
+    font-size: 0;
+    width: 29%;
+    height: 19%;
+    outline: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+#btn-join-army {
+    background : red;
+    position: absolute;
+    border: none;
+    font-size:0;
+    width:28%;
+    height:20%;
+    left:37%;
+    top:75%;
+    outline:none;
+    padding: 12px 24px;
+}
+
 #title-text {
     text-align: center;
 }
 
-/* #btn-join-army {
+#weymouth-left-btn {
+    background : red;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:26%;
+    height:24%;
+    left:7%;
+    top:70%;
+    outline:none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#weymouth-middle-btn {
     background : red;
     position: absolute;
     border: none !important;
     font-size:0;
+    width:26%;
+    height:24%;
+    left:36.5%;
+    top:70%;
+    outline:none;
+}
+
+#weymouth-right-btn {
+    background : red;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:26%;
+    height:24%;
+    left:67%;
+    top:70%;
+    outline:none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#transparent-button-charleston {
+    background : red;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:25%;
+    height:26%;
+    left:19%;
+    top:18%;
+    outline:none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#transparent-button-canton {
+    background : red;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:25%;
+    height:26%;
+    left:65%;
+    top:23%;
+    outline:none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#gettysburg-button {
+    background : blue;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:33%;
+    height:11%;
+    left:40%;
+    top:19%;
+    outline:none;
+    opacity:0.25;
+}
+
+
+#antietam-button {
+    background : red;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:31%;
+    height:10%;
+    left:38%;
+    top:30%;
+    outline:none;
+    opacity:0.25;
+}
+
+#fredericksburg-button {
+    background : violet;
+    position: absolute;
+    border: none !important;
+    font-size:0;
+    width:34%;
+    height:10%;
+    top:41%;
+    left:40%;
+    outline:none;
+    opacity:0.25;
+}
+
+#spotsylvania-button {
+    background : blue;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:34%;
+    height:9%;
+    left:41%;
+    top:39%;
+    outline:none;
+    opacity:0.25;
+}
+
+#cold-harbor-button {
+    background : red;
+    position: absolute;
+    border: none !important;
+    font-size:0;
+    width:30%;
+    height:9%;
+    left:70%;
+    top:47%;
+    outline:none;
+    opacity:0.25;
+}
+
+#petersburg-button {
+    background : violet;
+    position: absolute;
+    border: none !important;
+    font-size:0;
+    width:31%;
+    height:9%;
+    left:39%;
+    top:50%;
+    outline:none;
+    opacity:0.25;
+}
+
+#inner1 {
+    width:23%;
+    height:24%;
+    left:39%;
+    top:73%;
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    color: white;
+}
+
+#trigger-modal {
+    background : red;
+    position:absolute;
+    border: none !important;
+    font-size:0;
+    width:20%;
+    height:15%;
+    right:10%;
+    top:50%;
+    outline:none;
+    cursor: pointer;
+}
+
+.btn-dog-tag {
+    background : red;
+    position:absolute;
+    border: none !important;
+    font-size:0;
     width:20%;
     height:20%;
-    left:41%;
-    top:62%;
+    left:69%;
+    top:47%;
     outline:none;
-} */
-
-@media  screen  and (max-height: 1560px) {
-    #btn-join-army {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:20%;
-        height:20%;
-        left:41%;
-        top:56%;
-        outline:none;
-    }
-}
-@media  screen  and (max-width: 2560px) {
-    #transparent-button-charleston {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        min-width:23%;
-        max-width:25%;
-        min-height:24%;
-        max-height:26%;
-        left:23%;
-        top:12%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    #transparent-button-canton {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        min-width:23%;
-        max-width:25%;
-        min-height:24%;
-        max-height:26%;
-        /* min-left:60%; */
-        left:60%;
-        top:18%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-}
-
-@media  screen  and (max-width: 1920px) {
-    #transparent-button-charleston {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        min-width:23%;
-        max-width:25%;
-        min-height:24%;
-        max-height:26%;
-        left:23%;
-        top:16%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    #transparent-button-canton {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        min-width:23%;
-        max-width:25%;
-        min-height:24%;
-        max-height:26%;
-        /* min-left:60%; */
-        left:60%;
-        top:22%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-}
-@media  screen  and (max-width: 1920px) {
-    #weymouth-left-btn {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:21%;
-        left:17.5%;
-        top:60%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    #weymouth-right-btn {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:20%;
-        height:21%;
-        left:62.5%;
-        top:60%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    #weymouth-middle-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:21%;
-        left:39.5%;
-        top:60%;
-        outline:none;
-    }
-}
-
-@media  screen  and (max-height: 1560px) {
-    #weymouth-left-btn {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:21%;
-        left:17.5%;
-        top:54%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    #weymouth-right-btn {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:20%;
-        height:21%;
-        left:62.5%;
-        top:54%;
-        outline:none;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    #weymouth-middle-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:21%;
-        left:39.5%;
-        top:54%;
-        outline:none;
-    }
-}
-
-/* @media  screen  and (max-height: 1560px) {
-    #canton-left-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:26%;
-        top:50%;
-        outline:none;
-    }
-
-    #canton-right-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:53%;
-        top:50%;
-        outline:none;
-    }
-} */
-
-@media  screen  and (max-height: 1440px) {
-    #canton-left-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:26%;
-        top:57%;
-        outline:none;
-    }
-
-    #canton-right-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:53%;
-        top:57%;
-        outline:none;
-    }
-}
-
-@media  screen  and (max-height: 1080px) {
-    #canton-left-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:26%;
-        top:57%;
-        outline:none;
-    }
-
-    #canton-right-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:53%;
-        top:57%;
-        outline:none;
-    }
-}
-
-
-@media screen and (max-height: 1600px) {
-    #canton-left-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:26%;
-        top:54%;
-        outline:none;
-    }
-
-    #canton-right-btn {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:21%;
-        height:20%;
-        left:53%;
-        top:54%;
-        outline:none;
-    }
-}
-
-
-@media screen and (max-height: 1080px) and (max-width: 1920px) {
-    #gettysburg-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:7%;
-        left:39%;
-        top:19%;
-        outline:none;
-        opacity:0.25;
-    }
-
-
-    #antietam-button {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:7%;
-        left:39%;
-        top:27%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #fredericksburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:7%;
-        left:39%;
-        top:35%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #spotsylvania-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:28%;
-        height:7%;
-        left:40%;
-        top:33%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #cold-harbor-button {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:27%;
-        height:6%;
-        left:65.5%;
-        top:40%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #petersburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:24%;
-        height:6%;
-        left:41%;
-        top:42%;
-        outline:none;
-        opacity:0.25;
-    }
-}
-
-@media screen and (min-height: 1400px) and (max-height: 1490px) and (max-width:2560px) {
-    #gettysburg-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:7%;
-        left:39%;
-        top:18.5%;
-        outline:none;
-        opacity:0.25;
-    }
-
-
-    #antietam-button {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:7%;
-        left:39%;
-        top:26%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #fredericksburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:7%;
-        left:39%;
-        top:35%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #spotsylvania-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:28%;
-        height:7%;
-        left:40%;
-        top:33%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #cold-harbor-button {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:27%;
-        height:6%;
-        left:65.5%;
-        top:40%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #petersburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:24%;
-        height:6%;
-        left:41%;
-        top:42%;
-        outline:none;
-        opacity:0.25;
-    }
-}
-
-@media screen and (min-height: 1491px) and (max-height: 1560px) and (max-width:2560px)  {
-    #gettysburg-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:6%;
-        left:39%;
-        top:18%;
-        outline:none;
-        opacity:0.25;
-    }
-
-
-    #antietam-button {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:6%;
-        left:39%;
-        top:24%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #fredericksburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:6%;
-        top:32%;
-        left:39%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #spotsylvania-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:23%;
-        height:6%;
-        left:44%;
-        top:30.5%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #cold-harbor-button {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:23%;
-        height:6%;
-        left:65.5%;
-        top:36.5%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #petersburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:23%;
-        height:6%;
-        left:42%;
-        top:38.5%;
-        outline:none;
-        opacity:0.25;
-    }
-}
-
-@media screen and (min-height: 1561px) and (max-height: 1650px) and (max-width:2560px) {
-    #gettysburg-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:6%;
-        left:39%;
-        top:17%;
-        outline:none;
-        opacity:0.25;
-    }
-
-
-    #antietam-button {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:6%;
-        left:39%;
-        top:24%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #fredericksburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:31%;
-        height:6%;
-        left:39%;
-        top:32%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #spotsylvania-button {
-        background : blue;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:23%;
-        height:6%;
-        left:44%;
-        top:30%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #cold-harbor-button {
-        background : red;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:23%;
-        height:6%;
-        left:65.5%;
-        top:36%;
-        outline:none;
-        opacity:0.25;
-    }
-
-    #petersburg-button {
-        background : violet;
-        position: absolute;
-        border: none !important;
-        font-size:0;
-        width:23%;
-        height:6%;
-        left:42%;
-        top:37.5%;
-        outline:none;
-        opacity:0.25;
-    }
 }
 
 /* The Modal (background) */
@@ -643,122 +298,14 @@
     overflow: auto; /* Enable scroll if needed */
     background-color: rgba(255,255,255); /* Black w/ opacity */
 }
-  
+
   /* Modal Content/Box */
   .modal-content {
     background-color: white;
     margin: 15% auto; /* 15% from the top and centered */
-    /* padding: 20px; */
+    padding: 20px;
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
     /* height:100%; */
     /* padding-bottom: 35%; */
-}
-
-@media  screen  and (max-height: 1560px) {
-    .btn-dog-tag {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:18%;
-        left:63%;
-        top:32%;
-        outline:none;
-    }
-
-    #trigger-modal {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:21%;
-        left:63%;
-        top:32%;
-        outline:none;
-    }
-
-    
-}
-
-@media  screen  and (max-height: 1440px) {
-    .btn-dog-tag {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:18%;
-        left:63%;
-        top:36%;
-        outline:none;
-    }
-
-    #trigger-modal {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:21%;
-        left:63%;
-        top:36%;
-        outline:none;
-    }
-}
-
-@media  screen  and (max-width: 1920px) {
-    .btn-dog-tag {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:18%;
-        left:63%;
-        top:36%;
-        outline:none;
-    }
-
-    #trigger-modal {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:21%;
-        left:63%;
-        top:36%;
-        outline:none;
-    }
-}
-
-@media  screen and (max-height: 1600px) {
-    .btn-dog-tag {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:18%;
-        left:63%;
-        top:32%;
-        outline:none;
-    }
-
-    #trigger-modal {
-        background : red;
-        position:absolute;
-        border: none !important;
-        font-size:0;
-        width:17%;
-        height:21%;
-        left:63%;
-        top:32%;
-        outline:none;
-    }
-
-    
 }
