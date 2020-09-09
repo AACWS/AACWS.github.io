@@ -284,13 +284,14 @@
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    /* position: fixed; */
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    /* overflow: auto; */
+    overflow: hidden;
 }
 
   /* Modal Content/Box */
@@ -300,7 +301,15 @@
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
-    height:65%; /* Could be more or less, depending on screen size */
+}
+
+  /* Modal Content/Box */
+  .modal-content-individual-stories {
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30vw;
 }
 
 .is-blurred {
@@ -312,3 +321,48 @@
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
+
+.flip-card {
+    background-color: transparent;
+    width: 75%;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+    /* perspective: 1000px; */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: gray;
+    transform: rotateY(180deg);
+  }
